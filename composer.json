@@ -1,0 +1,23 @@
+{
+    "name": "zfbase/telegram-writer",
+    "description": "Writer in Telegram for Zend Log",
+    "keywords": ["telegram", "telegram php", "telegram zend", "telegram zend log"],
+    "type": "library",
+    "require": {
+        "zendframework/zendframework1": "~1",
+        "irazasyed/telegram-bot-sdk": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Serdyuk",
+            "email": "ilya@serdyuk.pro"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "TelegramLog_": "library/"
+        }
+    },
+    "minimum-stability": "dev"
+}

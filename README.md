@@ -1,4 +1,16 @@
-#Writer in Telegram for Zend Log
+# Writer in Telegram for Zend Log
+
+
+## Installation
+
+Use [Composer](http://getcomposer.org):
+
+```bash
+$ composer require ilyaserdyuk/telegram-writer:^1.0
+```
+
+
+## How to configure & use
 
 Example `application.ini`:
 
